@@ -4,14 +4,14 @@ public class User {
     live with his parents or not.
      */
 
-    String nameOfUser;
-    int ageOfUser;
-    boolean heLiveWithHisParents;
+    String name;
+    int age;
+    boolean liveAlone;
 
-    public User(String name, int age, boolean parents){
-        nameOfUser = name;
-        ageOfUser = age;
-        heLiveWithHisParents = parents;
+    public User(String name, int age, boolean liveAlone){
+        this.name = name;
+        this.age = age;
+        this.liveAlone = liveAlone;
     }
 
 }
